@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-image: url(./assets/blur.png), url(./assets/blur.png);
+  background-size: 1000px, 1000px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top -300px right -500px, bottom -300px left -500px;
+  background-clip: content-box;
+}
