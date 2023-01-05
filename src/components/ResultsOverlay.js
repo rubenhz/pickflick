@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from "react";
-import Typical from "react-typical";
 import { Context } from "../context";
 import Header from "./Header";
 import MovieRecommendations from "./MovieRecommendations";
@@ -21,11 +20,7 @@ export default function ResultsOverlay() {
         style={{animationName: overlayAnimation}}
         >
         <Header goBack />
-        <Typical
-            className='typic'
-            steps={['Here Are Our Recommendations']} 
-            wrapper='h2'
-        />
+        <h2 className='typic'>Here Are Our Recommendations</h2>
         {render && <MovieRecommendations />}
 
         <button className='movie-recommendations--show-more-btn'>
