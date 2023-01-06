@@ -36,6 +36,7 @@ export default function PromptForm(props) {
             type='text'
             value={text}
             onChange={handleChange}
+            maxlength="100"
         />
         <button type='submit'>
             <img src="https://img.icons8.com/ios-glyphs/30/000000/filled-sent.png" alt=''/>

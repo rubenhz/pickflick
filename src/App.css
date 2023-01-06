@@ -32,7 +32,8 @@ main {
 }
 
 .main-title {
-  margin-bottom: 0;
+  margin-top: 2.15rem;
+  margin-bottom: 2.15rem;
   text-align: center;
 }
 
@@ -164,7 +165,7 @@ main {
   padding-block: 20px;
 }
 
-.section:nth-child(2) {
+.section:nth-child(1) {
   border-bottom: 1px solid lightgray;
 }
 
@@ -236,6 +237,7 @@ main {
 
 .movie-card > img {
   width: 141px;
+  align-self: stretch;
 }
 
 @media (max-width: 500px) {
@@ -325,4 +327,12 @@ main {
   padding: 0;
   margin-left: 5px;
   color: var(--lightTextColor)
+}
+
+.features-examples {
+  height: calc(100% - 300px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
 }

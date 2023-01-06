@@ -22,35 +22,37 @@ function App() {
           Explore new movies with PickFlick's 
           AI-powered recommendations
         </h1>
-        <div className='section'>
-          <h2 className='section-title'>Features</h2>
-          <div className='card-row'>
-            <SimpleCard>
-              "Movie Detective": Find the movie you're 
-              thinking of by describing details about it.
-            </SimpleCard>
-            <SimpleCard>
-              "Movie Matchmaker" feature: Movie 
-              recommendations based on your preferences
-            </SimpleCard>
-            <SimpleCard>
-              "Similar Movies" feature: Discover more movies 
-              like your favorite.
-            </SimpleCard>
+        <div className='features-examples'>
+          <div className='section'>
+            <h2 className='section-title'>Features</h2>
+            <div className='card-row'>
+              <SimpleCard>
+                "Movie Detective": Find the movie you're 
+                thinking of by describing details about it.
+              </SimpleCard>
+              <SimpleCard>
+                "Movie Matchmaker" feature: Movie 
+                recommendations based on your preferences
+              </SimpleCard>
+              <SimpleCard>
+                "Similar Movies" feature: Discover more movies 
+                like your favorite.
+              </SimpleCard>
+            </div>
           </div>
-        </div>
-        <div className='section'>
-          <h2 className='section-title'>Examples</h2>
-          <div className='card-row'>
-            <SimpleCard>
-              "What was the name of the horror movie with a clown?"
-            </SimpleCard>
-            <SimpleCard>
-              "I'm in the mood for a comedy. Recommend me a movie."
-            </SimpleCard>
-            <SimpleCard>
-              "The Godfather is my all-time favorite. What else should I watch?"
-            </SimpleCard>
+          <div className='section'>
+            <h2 className='section-title'>Examples</h2>
+            <div className='card-row'>
+              <SimpleCard>
+                "What was the name of the horror movie with a clown?"
+              </SimpleCard>
+              <SimpleCard>
+                "I'm in the mood for a comedy. Recommend me a movie."
+              </SimpleCard>
+              <SimpleCard>
+                "The Godfather is my all-time favorite. What else should I watch?"
+              </SimpleCard>
+            </div>
           </div>
         </div>
       </main>
