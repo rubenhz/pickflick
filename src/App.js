@@ -55,11 +55,11 @@ function App() {
             </div>
           </div>
         </div>
+        
       </main>
       <div className='App--prompt-form-container'>
         <PromptForm/>
       </div>
-      
     </div>
   );
 }

@@ -24,35 +24,38 @@
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 main {
   max-width: var(--maxWidth);
   margin: auto;
-  height: calc(100vh - var(--headerHeight) - 95px);
+  height: 100%;
+  min-height: 615px;
   position: relative;
 }
 
 .main-title {
   margin-top: 2.15rem;
-  margin-bottom: 2.15rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 @media (max-width: 680px) {
   main {
     padding: 0 15px;
-    overflow-y: scroll;
   }
   .main-title {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 .App--prompt-form-container {
   background-image: var(--lightGradient);
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
   display: flex;
   padding-block: 1.5rem;
   z-index: inherit;
@@ -233,6 +236,7 @@ main {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  height: 200px;
 }
 
 .movie-card > img {
@@ -326,7 +330,8 @@ main {
   list-style-type: '- ';
   padding: 0;
   margin-left: 5px;
-  color: var(--lightTextColor)
+  color: var(--lightTextColor);
+  font-size: 14px;
 }
 
 .features-examples {
