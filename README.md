@@ -8,8 +8,6 @@ If you want to watch "action movies in space with a focus on politics," or if yo
 
 PickFlick uses the powerful NLP (Natural Language Processing) models from OpenAI, and a carefully crafted prompt, to clearly understad what the user is looking for and give an appropiate list of recommedations.
 
----
-
 ## Usage
 
 1. Create an account by signing up.
@@ -22,8 +20,6 @@ PickFlick uses the powerful NLP (Natural Language Processing) models from OpenAI
 ### Account Settings
 In order to manage your subscription, go to Account > Customer Portal.
 
----
-
 ## Technologies
 
 * React Js
@@ -34,8 +30,6 @@ In order to manage your subscription, go to Account > Customer Portal.
     * Hosting
 * Stripe Payments
 * Tailwind CSS
-
----
 
 ## Licence
 
